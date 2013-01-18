@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="LiveAssetManager"
+	id="liveassetmanager"
+	author="Simon Geilfus"
+	summary="Helper to automatically reload assets."
+	>
+	<supports os="msw" />
+	<supports os="macosx" />
+	<headerPattern>src/*.h</headerPattern>
+	<copyExclude>samples</copyExclude>
+	<includePath>src</includePath>
+	<source>src/LiveAssetManager.cpp</source>
+</block>
+</cinder>
