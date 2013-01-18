@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 44;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,15 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		2181AE427A094EE39B418F03 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = FCC7A7F9FDEB478F9FEA41E9 /* CinderApp.icns */; };
-		4B4A12CC16A9CB73003EE66A /* LiveAssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A12CA16A9CB73003EE66A /* LiveAssetManager.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C35489605FB04DD0898297A0 /* LiveDataSourceApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFE2DD04D92D4A429CBB6D4C /* LiveDataSourceApp.cpp */; };
+		47E5F6AAC3184D75935D6A32 /* LiveAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DAD523AB794B56904205E6 /* LiveAssetManager.h */; };
+		04B2B07E49B2405BB4F4E15E /* LiveAssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 331A993F86574232A0D67F30 /* LiveAssetManager.cpp */; };
+		419CBDF6DD134CF586CFA350 /* Basic_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BF278268E3DF4347985C3875 /* Basic_Prefix.pch */; };
+		DA8F1859DCD14648B167D401 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9291546D0C4E16B9E586A8 /* CinderApp.icns */; };
+		AC4ED51D879244AD8873AF6C /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 7424AF8661D9442D890AD609 /* Resources.h */; };
+		0C06F54FCA114E618238565A /* BasicApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04C765C6987C4470840E9121 /* BasicApp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,16 +32,16 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		4B4A12CA16A9CB73003EE66A /* LiveAssetManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LiveAssetManager.cpp; path = ../../../src/LiveAssetManager.cpp; sourceTree = "<group>"; };
-		4B4A12CB16A9CB73003EE66A /* LiveAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveAssetManager.h; path = ../../../src/LiveAssetManager.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		8D1107320486CEB800E47090 /* LiveDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFE2DD04D92D4A429CBB6D4C /* LiveDataSourceApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = LiveDataSourceApp.cpp; path = ../src/LiveDataSourceApp.cpp; sourceTree = "<group>"; };
-		BF05B383F4F64311AE51EB16 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
-		CBB6891CA9574D039802D510 /* LiveDataSource_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = LiveDataSource_Prefix.pch; sourceTree = "<group>"; };
-		D5BC72EAA58B41368064C564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC7A7F9FDEB478F9FEA41E9 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C765C6987C4470840E9121 /* BasicApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/BasicApp.cpp; sourceTree = "<group>"; name = BasicApp.cpp; };
+		7424AF8661D9442D890AD609 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		DB9291546D0C4E16B9E586A8 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		2CCAB381D8394243998D10C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		BF278268E3DF4347985C3875 /* Basic_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Basic_Prefix.pch; sourceTree = "<group>"; name = Basic_Prefix.pch; };
+		331A993F86574232A0D67F30 /* LiveAssetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/LiveAssetManager.cpp; sourceTree = "<group>"; name = LiveAssetManager.cpp; };
+		F1DAD523AB794B56904205E6 /* LiveAssetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/LiveAssetManager.h; sourceTree = "<group>"; name = LiveAssetManager.h; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +63,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				F7EBEE367474496F89F2C1F6 /* LiveAsset */,
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AFE2DD04D92D4A429CBB6D4C /* LiveDataSourceApp.cpp */,
+				04C765C6987C4470840E9121 /* BasicApp.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -103,12 +98,12 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* LiveDataSource.app */,
+				8D1107320486CEB800E47090 /* Basic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* LiveDataSource */ = {
+		29B97314FDCFA39411CA2CEA /* Basic */ = {
 			isa = PBXGroup;
 			children = (
 				01B97315FEAEA392516A2CEA /* Blocks */,
@@ -118,14 +113,39 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
-			name = LiveDataSource;
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		4254C3F69C4043D2AED26A72 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				331A993F86574232A0D67F30 /* LiveAssetManager.cpp */,
+				F1DAD523AB794B56904205E6 /* LiveAssetManager.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		B7FFF50C1F3644FCA391C6EC /* LiveAssetManager */ = {
+			isa = PBXGroup;
+			children = (
+				4254C3F69C4043D2AED26A72 /* src */,
+			);
+			name = LiveAssetManager;
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				B7FFF50C1F3644FCA391C6EC /* LiveAssetManager */,
+			);
+			name = Blocks;
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				BF05B383F4F64311AE51EB16 /* Resources.h */,
-				CBB6891CA9574D039802D510 /* LiveDataSource_Prefix.pch */,
+				7424AF8661D9442D890AD609 /* Resources.h */,
+				BF278268E3DF4347985C3875 /* Basic_Prefix.pch */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -133,8 +153,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FCC7A7F9FDEB478F9FEA41E9 /* CinderApp.icns */,
-				D5BC72EAA58B41368064C564 /* Info.plist */,
+				DB9291546D0C4E16B9E586A8 /* CinderApp.icns */,
+				2CCAB381D8394243998D10C1 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -148,29 +168,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6514359A7BBD4CE79DCB9D3A /* src */ = {
-			isa = PBXGroup;
-			children = (
-				4B4A12CA16A9CB73003EE66A /* LiveAssetManager.cpp */,
-				4B4A12CB16A9CB73003EE66A /* LiveAssetManager.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		F7EBEE367474496F89F2C1F6 /* LiveAsset */ = {
-			isa = PBXGroup;
-			children = (
-				6514359A7BBD4CE79DCB9D3A /* src */,
-			);
-			name = LiveAsset;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* LiveDataSource */ = {
+		8D1107260486CEB800E47090 /* Basic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LiveDataSource" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Basic" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -180,10 +183,10 @@
 			);
 			dependencies = (
 			);
-			name = LiveDataSource;
+			name = Basic;
 			productInstallPath = "$(HOME)/Applications";
-			productName = LiveDataSource;
-			productReference = 8D1107320486CEB800E47090 /* LiveDataSource.app */;
+			productName = Basic;
+			productReference = 8D1107320486CEB800E47090 /* Basic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +194,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiveDataSource" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Basic" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -201,11 +204,11 @@
 				French,
 				German,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* LiveDataSource */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Basic */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* LiveDataSource */,
+				8D1107260486CEB800E47090 /* Basic */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2181AE427A094EE39B418F03 /* CinderApp.icns in Resources */,
+				DA8F1859DCD14648B167D401 /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35489605FB04DD0898297A0 /* LiveDataSourceApp.cpp in Sources */,
-				4B4A12CC16A9CB73003EE66A /* LiveAssetManager.cpp in Sources */,
+				0C06F54FCA114E618238565A /* BasicApp.cpp in Sources */,
+				04B2B07E49B2405BB4F4E15E /* LiveAssetManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,20 +241,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = LiveDataSource_Prefix.pch;
+				GCC_PREFIX_HEADER = Basic_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
-				PRODUCT_NAME = LiveDataSource;
-				SYMROOT = ./build;
+				PRODUCT_NAME = Basic;
 				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
 			};
 			name = Debug;
 		};
@@ -266,62 +269,62 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = LiveDataSource_Prefix.pch;
+				GCC_PREFIX_HEADER = Basic_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
-				PRODUCT_NAME = LiveDataSource;
+				PRODUCT_NAME = Basic;
 				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
-				CINDER_PATH = ../../../../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../..";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/boost\"",
-					../../../src,
-				);
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../../src,
+				);
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
-				CINDER_PATH = ../../../../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../..";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/boost\"",
-					../../../src,
-				);
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../../src,
+				);
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LiveDataSource" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Basic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -330,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiveDataSource" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Basic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

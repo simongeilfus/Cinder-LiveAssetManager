@@ -8,8 +8,8 @@ using namespace ci;
 using namespace ci::app;
 using namespace std;
 
-class LiveDataSourceApp : public AppNative {
-  public:
+class BasicApp : public AppNative {
+public:
 	void setup();
 	void draw();
     
@@ -17,8 +17,8 @@ class LiveDataSourceApp : public AppNative {
     gl::GlslProg    mShader;
 };
 
-void LiveDataSourceApp::setup()
-{    
+void BasicApp::setup()
+{
     setWindowSize( 530, 530 );
     
     LiveAssetManager::load( "cinder_logo_alpha.png", [this](DataSourceRef dataSource){
@@ -28,7 +28,7 @@ void LiveDataSourceApp::setup()
         mTexture = gl::Texture( loadImage( dataSource ) );
     } );
     
-    LiveAssetManager::load( "shader.glsl", [this](DataSourceRef dataSource){
+    LiveAssetManager::load( "shader.frag", [this](DataSourceRef dataSource){
         
         // Because you can provide your own reloading function, you can catch
         // exceptions and/or check if something went wrong while editing the file.
@@ -42,8 +42,8 @@ void LiveDataSourceApp::setup()
     gl::enableAlphaBlending();
 }
 
-void LiveDataSourceApp::draw()
-{    
+void BasicApp::draw()
+{
     mShader.bind();
     gl::drawSolidRect( getWindowBounds() );
     mShader.unbind();
@@ -51,4 +51,4 @@ void LiveDataSourceApp::draw()
     gl::draw( mTexture, Vec2f( 9, 9 ) );
 }
 
-CINDER_APP_NATIVE( LiveDataSourceApp, RendererGl )
+CINDER_APP_NATIVE( BasicApp, RendererGl )

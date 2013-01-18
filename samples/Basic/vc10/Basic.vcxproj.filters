@@ -13,27 +13,30 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Blocks">
-      <UniqueIdentifier>{10E49FC2-F997-4304-903C-8A1C4B4E30E0}</UniqueIdentifier>
+      <UniqueIdentifier>{B5A005C2-CE37-4CCF-B597-76A540131876}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\LiveAsset">
-      <UniqueIdentifier>{89F7A5D0-F855-4BEE-9A71-7B85171D2DB4}</UniqueIdentifier>
+    <Filter Include="Blocks\LiveAssetManager">
+      <UniqueIdentifier>{89AE52D4-E141-4599-BF5B-BAD6AE1A0D4C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\LiveAsset\src">
-      <UniqueIdentifier>{6758C4FF-CB81-4E97-B06C-670367F9940C}</UniqueIdentifier>
+    <Filter Include="Blocks\LiveAssetManager\src">
+      <UniqueIdentifier>{CE7584E8-43C2-4B11-8161-7AAE7D21C879}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\LiveDataSourceApp.cpp">
+    <ClCompile Include="..\src\BasicApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\LiveDataSourceApp.cpp">
+    <ClCompile Include="..\src\BasicApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\src\LiveDataSource.h">
-      <Filter>Blocks\LiveAsset\src</Filter>
+    <ClCompile Include="..\..\..\src\LiveAssetManager.cpp">
+      <Filter>Blocks\LiveAssetManager\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\LiveAssetManager.h">
+      <Filter>Blocks\LiveAssetManager\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
