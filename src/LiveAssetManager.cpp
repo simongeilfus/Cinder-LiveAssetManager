@@ -78,7 +78,7 @@ LiveAssetManager* LiveAssetManager::instance()
 {
     if( !mInstance ){
         mInstance = new LiveAssetManager();
-        ci::app::getWindow()->connectPostDraw( &LiveAssetManager::update, mInstance );
+        ci::app::App::get()->getSignalUpdate().connect( std::bind( &LiveAssetManager::update, mInstance ) );
     }
     return mInstance;
 }
