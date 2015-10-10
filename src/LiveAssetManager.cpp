@@ -4,7 +4,7 @@
 //
 //  Created by Simon Geilfus on 17/01/13.
 
-
+#include "cinder/app/App.h"
 #include "LiveAssetManager.h"
 
 LiveAsset::LiveAsset( ci::fs::path relativePath, std::function<void(ci::DataSourceRef)> callback )
